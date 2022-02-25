@@ -20,6 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('/email', function () {
-    Mail::to('md.tushar1804@gmail.com')->send(new MyTestMail());
+    Mail::to('wegiv59647@naluzotan.com')->send(new MyTestMail());
     return '<h1>Done</h1>';
 });
