@@ -1,10 +1,11 @@
 
 For Laravel >=6
 
-composer require laravel/ui <br>
-php artisan ui vue --auth <br>
-php artisan migrate <br>
-
+composer require laravel/ui<br>
+php artisan ui bootstrap --auth<br>
+npm install<br>
+npm install resolve-url-loader@^5.0.0 --save-dev --legacy-peer-deps<br>
+npm run dev<br>
 
 
 
